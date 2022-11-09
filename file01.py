@@ -1,6 +1,6 @@
 f = open('txt_file/data01.txt')
 a=f.read()
-b=a.split(',')
+b=str(a)
 def main(data:str):
     """
     The data is from the file. Return data as a list type.
